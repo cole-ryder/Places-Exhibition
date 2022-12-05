@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drag2</title>
+ 
+</head>
+<body onload="move('element')">
+    <figure id="viewer_area" class="hidden1" >
+        <img id="zoom_sahra1" class="hidden1" src="images/JPEG/sahra (1).jpg">
+     </figure>
+      <div class="top">
+        <div class="icon_container">
+            <img src="icons/camera.svg" class="icons" id="camera">
+            <img src="icons/drag.svg" class="icons" id="drag">
+            <img src="icons/printer.svg" class="icons" id="printer">
+         </div>
+      </div>
+      <div class="bottom">
+         <img class="element photo" id="div1" onclick="getPositionXY(this)" src="images/keepers/smalls/sahra (1).jpg">
+         <img class="element photo" id="div2" onclick="getPositionXY2(this)" src="images/keepers/smalls/sahra (2).jpg">
+         <img class="element photo" id="div3" onclick="getPositionXY3(this)" src="images/keepers/smalls/sahra (3).jpg">
+         <img class="element photo" id="div4" onclick="getPositionXY4(this)" src="images/keepers/smalls/sahra (4).jpg">
+   </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>
